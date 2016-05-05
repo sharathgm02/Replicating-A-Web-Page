@@ -1,0 +1,125 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #E2E2E2;
+}
+
+label.heading {
+    font-size:29px;
+}
+
+.gray60 {
+    color:#999999;
+}
+
+
+#sideMenu {
+    margin-left: 0px;
+    width: 235px; 
+    height: 50%; 
+    float:left;
+}
+
+#sideTop {
+    background-image: url(images/side_top.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 30px;
+    overflow: hidden;
+}
+
+#sideMain {
+    padding-right: 30px;
+    text-align: right;
+    background-image: url(images/side_main.png);
+    background-repeat: repeat-y;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+#header {
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    height: 104px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+#footer {
+    background-image: url(images/footer.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#mainColumn {
+    margin-right: 0px;
+    margin-left: 3px;
+    width: 560px; 
+    height: 100%; 
+    float: left;
+    margin-top: 30px;
+}
+
+#content{
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+#horizontalList li {
+    display: inline;
+}
+
+#verticalList {
+    list-style-type: none; 
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#subHeading {
+    font-size:18px; 
+    text-align: right;
+    color:#E2E2E2;
+    padding-right: 27px;
+    margin-top:2px; 
+}
+
+.headline {
+    font-size: 21px;
+    margin-bottom: 0;
+}
+
+.news {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#headline1 {
+    margin-top: 0;
+}
+
+#headline2{
+    margin-top: 28px;
+}
+
+#news2 {
+    margin-bottom: 0;
+}
+
+#footerLinks{
+    text-align: center; 
+    font-size: 12px;
+}
